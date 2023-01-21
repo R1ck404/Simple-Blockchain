@@ -1,13 +1,13 @@
 <?php
 
 class Transaction {
-    public $timestamp;
-    public $type;
-    public $stock_symbol;
-    public $shares;
-    public $price;
-    public $buyer_public_key;
-    public $seller_public_key;
+    public int $timestamp;
+    public string $type;
+    public string $stock_symbol;
+    public int $shares;
+    public float $price;
+    public string $buyer_public_key;
+    public string $seller_public_key;
 
     public function __construct($type, $stock_symbol, $shares, $price, $buyer_public_key, $seller_public_key) {
         $this->timestamp = time();
