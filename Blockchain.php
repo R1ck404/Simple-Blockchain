@@ -1,8 +1,8 @@
 <?php
 
 class Blockchain {
-    public $chain;
-    public $difficulty;
+    public array $chain;
+    public int $difficulty;
 
     public function __construct($difficulty) {
         $this->chain = array(new Block(array(), "0"));
