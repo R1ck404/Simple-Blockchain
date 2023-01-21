@@ -1,3 +1,5 @@
+<?php
+
 class Block {
     public $timestamp;
     public $transactions;
@@ -24,3 +26,5 @@ class Block {
         }
     }
 }
+
+?>
