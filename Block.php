@@ -1,11 +1,11 @@
 <?php
 
 class Block {
-    public $timestamp;
-    public $transactions;
-    public $prev_hash;
-    public $hash;
-    public $nonce;
+    public int $timestamp;
+    public array $transactions;
+    public string $prev_hash;
+    public string $hash;
+    public int $nonce;
 
     public function __construct($transactions, $prev_hash) {
         $this->timestamp = time();
