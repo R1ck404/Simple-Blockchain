@@ -1,3 +1,5 @@
+<?php
+
 class Blockchain {
     public $chain;
     public $difficulty;
@@ -34,3 +36,5 @@ class Blockchain {
         return true;
     }
 }
+
+?>
