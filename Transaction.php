@@ -1,3 +1,5 @@
+<?php
+
 class Transaction {
     public $timestamp;
     public $type;
@@ -17,3 +19,5 @@ class Transaction {
         $this->seller_public_key = $seller_public_key;
     }
 }
+
+?>
